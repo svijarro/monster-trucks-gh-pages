@@ -1,0 +1,102 @@
+/* color pallets
+Red: #FF0700
+Yellow: #FFC200
+Blue: #0052FF
+*/
+
+
+/* Global */
+ body {
+  background: -webkit-linear-gradient(90deg, #FF8008 10%, #FFC837 90%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(90deg, #FF8008 10%, #FFC837 90%); /* FF3.6+ */
+  background:     -ms-linear-gradient(90deg, #FF8008 10%, #FFC837 90%); /* IE10 */
+  background:      -o-linear-gradient(90deg, #FF8008 10%, #FFC837 90%); /* Opera 11.10+ */
+  background:         linear-gradient(90deg, #FF8008 10%, #FFC837 90%); /* W3C */
+        
+ }
+
+/* Navigation */
+
+ul {
+    
+ list-style: none;    
+ text-decoration: none;
+ color: darkgrey;
+}
+
+li {
+  display: inline-block;
+  list-style: none;
+}
+
+
+/* Base Link & Visited State */
+
+a:link, a:visited {
+  color: white;
+  border-left: 4px solid #fff;
+  
+  display: block;
+ 
+  height: 24px;
+  width: 100px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 32px;
+  
+  transition: all .5s;
+}
+
+a:visited {
+  color: darkslategrey;
+}
+
+/* Hover State */
+a:hover {
+  background: #0052FF;
+  border-left: 10px solid grey;
+  padding-top: 0px;
+  
+}
+
+
+/* Images */
+
+img {
+  border: 2px orange solid;
+  border-radius: 20px;
+  width: 510px;
+  height: 400px;
+  padding: 2px 2px 2px 2px;
+}
+
+/* Typography */
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 72px;
+    color: white;
+}
+
+
+h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    color: white;
+}
+
+p {
+font-family: 'Gentium Book Basic', serif;
+font-size: 14px;
+color: white;
+    
+width: 400px;
+}
+
+blockquote {
+    color: white;
+    font-family: 'Gentium Book Basic', serif;
+    font-size: 30px;
+    width: 5px;
+    
+}
